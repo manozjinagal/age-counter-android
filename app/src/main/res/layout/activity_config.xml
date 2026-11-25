@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:orientation="vertical" android:padding="20dp">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="24dp"
+            android:text="@string/style_title" android:textColor="#FFFFFFFF" android:textSize="24sp" android:fontFamily="sans-serif-medium" />
+
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16dp"
+            android:orientation="vertical" android:background="@drawable/preview_bg" android:padding="14dp">
+            <FrameLayout android:id="@+id/preview_wide" android:layout_width="match_parent" android:layout_height="130dp" />
+            <FrameLayout android:id="@+id/preview_small" android:layout_width="150dp" android:layout_height="150dp"
+                android:layout_gravity="center_horizontal" android:layout_marginTop="12dp" />
+        </LinearLayout>
+
+        <Button android:id="@+id/set_birth" android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:layout_marginTop="16dp" android:text="@string/set_birth" />
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20dp"
+            android:text="@string/style_heading" android:textColor="@color/label" android:textSize="13sp" android:fontFamily="sans-serif-medium" />
+        <RadioGroup android:id="@+id/styles" android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:layout_marginTop="4dp" android:orientation="vertical" />
+
+        <TextView android:id="@+id/opacity_label" android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:layout_marginTop="20dp" android:textColor="@color/label" android:textSize="13sp" android:fontFamily="sans-serif-medium" />
+        <SeekBar android:id="@+id/opacity" android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:layout_marginTop="8dp" android:max="100" />
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4dp"
+            android:text="@string/opacity_hint" android:textColor="@color/label" android:textSize="12sp" />
+
+        <Button android:id="@+id/save" android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:layout_marginTop="24dp" android:layout_marginBottom="24dp" android:text="@string/save" />
+    </LinearLayout>
+</ScrollView>

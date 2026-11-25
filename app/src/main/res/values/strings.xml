@@ -13,4 +13,10 @@
     <string name="labels">YEARS · MONTHS · DAYS · HOURS · MINS · SECS · MS</string>
     <string name="help_title">On your lock screen</string>
     <string name="help_body">Samsung\'s lock screen only shows Samsung widgets by itself. To add this one: install Good Lock from the Galaxy Store, open it and install LockStar, then in LockStar tap your lock screen, choose Add widget and pick Age Counter.\n\nThe widget\'s seconds tick live. Milliseconds only show here in the app, because Android widgets can\'t redraw that fast. Your date of birth is saved only on this phone.</string>
+    <string name="style_title">Widget style</string>
+    <string name="style_heading">STYLE</string>
+    <string name="background_opacity">BACKGROUND: %1$d%%</string>
+    <string name="opacity_hint" formatted="false">Slide to 0% for a fully transparent widget that shows only the numbers.</string>
+    <string name="save">Save</string>
+    <string name="change_style_hint">To change a widget\'s style or transparency, long-press it on your home screen and tap Settings.</string>
 </resources>

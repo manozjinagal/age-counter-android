@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- A colourful stand-in for your wallpaper, so you can see how see-through the widget is -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle">
+    <gradient android:angle="315" android:startColor="#FF5B7BC9" android:centerColor="#FFB07AAE" android:endColor="#FFE39B6E" />
+    <corners android:radius="20dp" />
+</shape>

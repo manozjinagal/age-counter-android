@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Age Counter</string>
+    <string name="widget_desc">Your age counting up live: years, months, days, hours, minutes and seconds.</string>
+    <string name="setup_widget">Tap to add your date of birth</string>
+    <string name="set_birth">Set date and time of birth</string>
+    <string name="add_widget">Add widget to home screen</string>
+    <string name="done">Done</string>
+    <string name="no_birth">No date of birth set yet</string>
+    <string name="born_on">Born %1$s</string>
+    <string name="pick_date">Date of birth</string>
+    <string name="pick_time">Time of birth</string>
+    <string name="show_progress">Show birthday progress bar on the widget</string>
+    <string name="labels">YEARS · MONTHS · DAYS · HOURS · MINS · SECS · MS</string>
+    <string name="help_title">On your lock screen</string>
+    <string name="help_body">Samsung\'s lock screen only shows Samsung widgets by itself. To add this one: install Good Lock from the Galaxy Store, open it and install LockStar, then in LockStar tap your lock screen, choose Add widget and pick Age Counter.\n\nThe widget\'s seconds tick live. Milliseconds only show here in the app, because Android widgets can\'t redraw that fast. Your date of birth is saved only on this phone.</string>
+</resources>

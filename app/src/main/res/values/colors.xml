@@ -1,0 +1,7 @@
+<resources>
+    <color name="bg_top">#EE2A2F44</color>
+    <color name="bg_bottom">#EE17171F</color>
+    <color name="label">#9EFFFFFF</color>
+    <color name="accent">#FFFB6A40</color>
+    <color name="page">#FF14151D</color>
+</resources>

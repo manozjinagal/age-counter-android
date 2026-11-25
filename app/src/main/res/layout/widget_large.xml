@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/root"
+    android:layout_width="match_parent" android:layout_height="match_parent" android:background="@drawable/widget_bg" android:padding="16dp">
+    <LinearLayout android:id="@+id/content" android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:layout_gravity="center" android:orientation="vertical" android:gravity="center_horizontal">
+        <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:orientation="horizontal" android:gravity="bottom">
+            <TextView android:id="@+id/years" style="@style/Num" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textSize="64sp" android:fontFamily="sans-serif-thin" />
+            <TextView style="@style/Lbl" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="6dp" android:layout_marginBottom="8dp" android:textSize="16sp" android:letterSpacing="0" android:text="years" />
+        </LinearLayout>
+        <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:orientation="horizontal">
+            <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:orientation="vertical" android:gravity="center_horizontal">
+                <TextView android:id="@+id/months" style="@style/Num" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textSize="26sp" />
+                <TextView style="@style/Lbl" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3dp" android:text="MONTHS" />
+            </LinearLayout>
+            <LinearLayout android:layout_marginStart="24dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:orientation="vertical" android:gravity="center_horizontal">
+                <TextView android:id="@+id/days" style="@style/Num" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textSize="26sp" />
+                <TextView style="@style/Lbl" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3dp" android:text="DAYS" />
+            </LinearLayout>
+        </LinearLayout>
+        <Chronometer android:id="@+id/clock" style="@style/Num" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:textSize="30sp" />
+        <TextView style="@style/Lbl" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3dp" android:text="HOURS : MINUTES : SECONDS" />
+        <ProgressBar android:id="@+id/progress" style="@android:style/Widget.Material.ProgressBar.Horizontal"
+            android:layout_width="match_parent" android:layout_height="4dp" android:layout_marginTop="10dp"
+            android:max="1000" android:progress="0" android:progressTint="#FFFFFFFF" android:progressBackgroundTint="#55FFFFFF" />
+        <TextView android:id="@+id/caption" style="@style/Lbl" android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:layout_marginTop="5dp" android:textSize="10sp" android:letterSpacing="0" />
+    </LinearLayout>
+    <TextView android:id="@+id/setup" android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:layout_gravity="center" android:gravity="center" android:padding="12dp" android:visibility="gone"
+        android:text="@string/setup_widget" android:textColor="#FFFFFFFF" android:textSize="13sp" />
+</FrameLayout>
